@@ -1,6 +1,8 @@
 # Preserve Chatter Files on Lead Conversion
 
-Simple Lead trigger that moves Chatter Files to the converted Account, Contact, and Opportunity upon Lead Conversion. You might also be interested in my blog post about [Advanced Lead Conversion using Process Builder](https://douglascayers.com/2016/06/26/advanced-lead-conversion-with-process-builder/).
+Simple Lead trigger that moves Chatter Files to the converted Account, Contact, and Opportunity upon Lead Conversion.
+
+You might also be interested in my blog posts about [Advanced Lead Conversion using Process Builder](https://douglascayers.com/2016/06/26/advanced-lead-conversion-with-process-builder/) and [Preserve Related Lists and Chatter on Lead Conversion](https://douglascayers.com/2016/05/29/salesforce-preserve-related-lists-and-chatter-on-lead-conversion/).
 
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
