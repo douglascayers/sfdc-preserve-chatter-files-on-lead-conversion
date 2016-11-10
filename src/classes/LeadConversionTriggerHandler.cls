@@ -34,7 +34,9 @@ public with sharing class LeadConversionTriggerHandler {
 
                 }
 
-                handleConvertedLeads( convertedLeads );
+                if ( convertedLeads.size() > 0 ) {
+                    handleConvertedLeads( convertedLeads );
+                }
 
             }
 
