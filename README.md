@@ -9,7 +9,8 @@ You might also be interested in my blog posts about [Advanced Lead Conversion us
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
-As of this writing, Salesforce does not preserve Chatter or related Files during conversion operation. The Files are left orphaned.
+# UPDATE: [Summer '17 release](https://releasenotes.docs.salesforce.com/en-us/summer17/release-notes/rn_sales_features_core_leads_related_records.htm) now preserves Salesforce Files during Lead Conversion.
+~~As of this writing, Salesforce does not preserve Chatter or related Files during conversion operation. The Files are left orphaned.~~
 
 Inspired by [Gorav Seth](https://twitter.com/goravseth)'s realization of this on [Success Community](https://success.salesforce.com/0D53A00002uKsks), and by [Matthew Souther](https://www.linkedin.com/in/matthewsouther)'s comment of suggested solution,
 I developed this simple trigger to demonstrate how to preserve and carry over the [Chatter Files](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_contentdocument.htm) to the converted Account, Contact, and Opportunity.
